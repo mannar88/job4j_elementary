@@ -20,6 +20,9 @@ public class Fit {
         System.out.println("Man 187 is " + man);
         System.out.println("Woman 52 is " + woman);
 
-    }
+        System.out.println("Тест");
+System.out.println("Тест из блокнота" );
+    
+}
 
 }
