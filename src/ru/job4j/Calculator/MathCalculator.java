@@ -13,16 +13,15 @@ public class MathCalculator {
         return  subtraction (first, second)
                 +division(first, second);
     }
+
     public  static  double sumAll (double first, double second ) {
         return sumAndMultiply ( first, second)
                 + subtractionDivision (first, second);
 
-    }
 
-
-    public static void main(String[] args) {
-        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат метода subtractionDivision =  " + subtractionDivision( 10, 20));
-        System.out.println("Итоговая сумма всех методов = " + sumAll(10, 20)   );
+        public static void main(String[] args) {
+            System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
+            System.out.println("Результат метода subtractionDivision =  " + subtractionDivision( 10, 20));
+            System.out.println("Итоговая сумма всех методов = " + sumAll(10, 20)   );
+        }
     }
-}
