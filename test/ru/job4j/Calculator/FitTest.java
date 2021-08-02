@@ -18,8 +18,7 @@ public class FitTest {
     @Test
     public void womanWeight152Then92() {
         short in = 152;
-        // сдесь специально оставил не правильное значение, - что бы не скучно и слащаво
-        double expected = 64.3;
+        double expected = 59.8;
         double out = ru.job4j.calculator.Fit.manWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
