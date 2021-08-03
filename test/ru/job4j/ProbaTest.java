@@ -8,5 +8,5 @@ public class ProbaTest {
 
     @Test
    public  int sum10()
-    }
+  fg  }
 }
