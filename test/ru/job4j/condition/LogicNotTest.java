@@ -52,6 +52,5 @@ public class LogicNotTest {
         int sum =-2;
         boolean result = LogicNot.evenOrNotPositive(sum);
         Assert.assertTrue(result);
-
     }
 }
