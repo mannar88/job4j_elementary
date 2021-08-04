@@ -10,14 +10,14 @@ public class LogicNotTest {
     @Test
     public void isEvenTest() {
 
-    int sum = 2;
-    boolean result = LogicNot.isEven(sum);
+        int sum = 2;
+        boolean result = LogicNot.isEven(sum);
         Assert.assertTrue(result);
     }
 
     @Test
     public void isPositiveTest() {
-    int sum = 2;
+        int sum = 2;
         boolean result = LogicNot.isPositive(sum);
         Assert.assertTrue(result);
 
