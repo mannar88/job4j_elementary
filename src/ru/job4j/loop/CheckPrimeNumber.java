@@ -14,4 +14,15 @@ for ( int i = 2; i < number; i++){
 }
         return prime;
     }
+    public static int calc(int finish) {
+        int count = 0;
+        for (int number = 2; number <= finish; number++) {
+            if (CheckPrimeNumber.check(number) == true) {
+                count++;
+            }
+        }
+        return count;
+
+    }
+
 }
