@@ -6,6 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FindLoopTest {
+
     @Test
     public void whenArrayHas5Then2() {
         int[] data = {5, 4, 3, 2};
