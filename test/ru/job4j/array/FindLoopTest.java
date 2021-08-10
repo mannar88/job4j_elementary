@@ -24,7 +24,7 @@ public class FindLoopTest {
         Assert.assertEquals(expected, result);
     }
 @Test
-public void whenArrayHasNon Then0() {
+public void whenArrayHasNonThen0() {
     int[] data = {5, 4, 3, 2};
     int el = 7;
     int result = FindLoop.indexOf(data, el);
