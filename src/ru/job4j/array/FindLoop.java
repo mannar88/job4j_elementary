@@ -17,7 +17,7 @@ public class FindLoop {
         int rst = -1; /* если элемента нет в массиве, то возвращаем -1. */
         for (int i = start; i <= finish; i++) {
             if ( data[i] == el){
-                return  rst = i;
+                return  i;
             }
         }
         return rst;
