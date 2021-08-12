@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MachineTest {
-
     @Test
     public void whenEquals() {
         int money = 100;
