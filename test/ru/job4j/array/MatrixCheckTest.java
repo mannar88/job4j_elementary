@@ -66,8 +66,7 @@ public void whenHasMonoVertical() {
         char[] expected = {'X', 'Y', 'Z'};
         Assert.assertArrayEquals(expected, result);
     }
-//проверка игры
-
+/
     @Test
     public void whenDataMonoByTrueThenTrue() {
         char[][] input = {

@@ -34,23 +34,17 @@ public class MatrixCheck {
         return rsl;
     }
 
-    public  static  int diagonalInt( char [][] arr){
-        for (int i = 0; i <arr.length ; i++) {
-            if (arr[i][i] == 'X'){
-    return  i;
+
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int i = 0; i < 5; i++) {
+            if (board[i][i] == 'X') {
+                if (MatrixCheck.monoHorizontal(board, i) || MatrixCheck.monoVertical(board, i)) {
+                    result = true;
+                    break;
+                }
             }
         }
-    return  -1;
-    }
-
-        public static boolean isWin(char[][] board) {
-        boolean result = false;
-int index = MatrixCheck.diagonalInt(board);
-if ( index != -1){
-    if (MatrixCheck.monoHorizontal(board, index) || MatrixCheck.monoVertical(board, index)) {
-        result = true;
-    }
-    }
-return result;
+        return result;
     }
 }
